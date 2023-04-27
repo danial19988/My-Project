@@ -1,0 +1,53 @@
+body{
+    margin: 0; padding: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    box-shadow: 0 3px 6px black;
+}
+.nav-link{
+    font-size: 18px;
+    margin-right: 10px;
+
+}
+header{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../images/blurred-background-rows-black-dumbbells-rack-gym_42687-402.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.info{
+    margin-left: -120px;
+}
+ul{
+   font-size: 19px;
+}
+footer{
+    padding: 20px 0px;}
+.footer-nav, .social-nav{
+    float: left;
+    list-style: none;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.social-nav{
+float: right;
+}
+.footer-nav li, .social-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-nav li a, .social-nav li a{
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.footer-nav li a:hover, .social-nav li a:hover{
+    color: orange;
+    text-decoration: underline;
+}
